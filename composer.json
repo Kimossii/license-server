@@ -2,6 +2,7 @@
     "name": "eluki/license-server",
     "description": "Pacote servidor de licenças",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "LicenseServer\\": "src/"
