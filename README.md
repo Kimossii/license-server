@@ -138,6 +138,9 @@ license-server/
 - Utilize cada pacote (License Client e License Server) conforme a necessidade do seu projeto.
 - Lembre-se de manter as chaves (APP_KEY e chave pública) seguras e consistentes entre os ambientes.
 
+> ⚠️ **Dica de Depuração:**  
+> Em caso de qualquer erro ou exceção, verifique os arquivos de log em `logs/ClientLicense.log` ou `logs/license_server.log` para mais detalhes.
+
 
 
 
