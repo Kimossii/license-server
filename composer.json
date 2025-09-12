@@ -1,0 +1,22 @@
+{
+    "name": "eluki/license-server",
+    "description": "Pacote servidor de licenças",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "LicenseServer\\": "src/"
+        },
+        "files": [
+            "src/Helpers/globalVariables.php",
+            "src/Helpers/LicenseHelper.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LicenseServer\\ServerServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
