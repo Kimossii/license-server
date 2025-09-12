@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\File;
 use LicenseServer\Services\GeneratorLicenseService;
 
 use Illuminate\Contracts\Encryption\DecryptException;
-// Carrega os helpers globais do pacote
+// 
 require_once base_path('vendor/eluki/license-server/src/Helpers/globalVariables.php');
 require_once base_path('vendor/eluki/license-server/src/Helpers/LicenseHelper.php');
 
