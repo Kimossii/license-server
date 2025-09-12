@@ -1,5 +1,5 @@
 <?php
-namespace LicenseClient\Services;
+namespace LicenseServer\Services;
 //use App\Helpers\LicenseHelper;
 use LicenseServer\Helpers\LicenseHelper;
 
@@ -13,8 +13,8 @@ use function LicenseServer\Helpers\write_ServerLicense_log;
 use LicenseServer\Helpers\GlobalVariables;
 
 // Carrega os helpers globais do pacote
-require_once base_path('vendor/eluki/license-server/src/Helpers/globalVariables.php');
-require_once base_path('vendor/eluki/license-server/src/Helpers/LicenseHelper.php');
+//require_once base_path('vendor/eluki/license-server/src/Helpers/globalVariables.php');
+//require_once base_path('vendor/eluki/license-server/src/Helpers/LicenseHelper.php');
 
 
 class GeneratorLicenseService
