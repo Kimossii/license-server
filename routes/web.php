@@ -1,7 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Route;
-use LicenseServer\Http\Controllers\LicenseServerController; // use a classe correta
-
+use LicenseServer\Http\Controllers\LicenseServerController; 
 Route::prefix('license-server')->group(function () {
     Route::get('/', [LicenseServerController::class, 'createForm'])->name('server.create');
     Route::get('/generate', [LicenseServerController::class, 'generateKeyForm'])->name('generate.keys');
