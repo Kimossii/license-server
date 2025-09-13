@@ -3,12 +3,6 @@
     "description": "Pacote servidor de licenças para Laravel",
     "type": "library",
     "license": "MIT",
-    "keywords": ["laravel", "license", "licensing", "license-server", "activation", "php", "laravel-package"],
-    "homepage": "https://github.com/Kimossii/license-server",
-    "support": {
-        "issues": "https://github.com/Kimossii/license-server/issues",
-        "source": "https://github.com/Kimossii/license-server"
-    },
     "autoload": {
         "psr-4": {
             "LicenseServer\\": "src/"
