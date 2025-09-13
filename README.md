@@ -155,7 +155,10 @@ license-server/
 > Em caso de qualquer erro ou exceção, verifique os arquivos de log em `logs/ClientLicense.log` ou `logs/license_server.log` para mais detalhes.
 
 
+## 📖 Documentação Completa
+Para detalhes mais avançados, acesse a documentação em PDF:
 
+👉 [Abrir Documentação ](https://drive.google.com/file/d/SEU_ID_DO_ARQUIVO/view?usp=sharing)
 
 
 
