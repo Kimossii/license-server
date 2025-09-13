@@ -1,5 +1,13 @@
 # License Server for Laravel
 
+## 📦 Packagist
+
+[![Latest Stable Version](https://img.shields.io/packagist/v/eluki/license-server.svg)](https://packagist.org/packages/eluki/license-server)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+Encontre este pacote no [Packagist](https://packagist.org/packages/eluki/license-server) para facilitar a instalação e atualização via Composer.
+
+
 Pacote Laravel para gerenciamento de licenças de software, permitindo criar, gerar e distribuir licenças de forma segura para clientes.
 
 O **License Server** funciona como backend central de licenciamento, gerenciando todas as licenças emitidas para o License Client.
@@ -124,6 +132,11 @@ license-server/
 
 ---
 
+## 📦 Ecossistema
+- [License Server](https://github.com/Kimossii/license-server) → Gerencia e emite licenças  
+- [License Client](https://github.com/Kimossii/license-client) → Valida licenças no lado do cliente
+
+
 ## 📫 Contato
 
 - **Email:** eluckimossi@gmail.com  
@@ -133,10 +146,10 @@ license-server/
 
 
 # NOTA
-## Fique à vontade para usar cada pacote com seu app separado e não se esqueça das chaves
+> ### Importante:** O `APP_KEY` do projeto precisa ser consistente entre ambientes.  
+> Essa chave é usada como parte da validação de licença.  
+> Se não coincidir, o pacote considera a licença inválida.
 
-- Utilize cada pacote (License Client e License Server) conforme a necessidade do seu projeto.
-- Lembre-se de manter as chaves (APP_KEY e chave pública) seguras e consistentes entre os ambientes.
 
 > ⚠️ **Dica de Depuração:**  
 > Em caso de qualquer erro ou exceção, verifique os arquivos de log em `logs/ClientLicense.log` ou `logs/license_server.log` para mais detalhes.
